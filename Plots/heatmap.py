@@ -6,6 +6,7 @@ import plotly.offline as pyo
 df = pd.read_csv('../Datasets/CoronaTimeSeries.csv')
 
 # preparing data
+# the data is prepped here by selecting the values from the data necessary to show volume in cases
 data = [go.Heatmap(x=df['Day'],
                    y=df['WeekofMonth'],
                    z=df['Recovered'].values.tolist(),
