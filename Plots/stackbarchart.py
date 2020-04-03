@@ -24,6 +24,7 @@ new_df = new_df.sort_values(by=['Confirmed'],
 ascending=[False]).head(20).reset_index()
 
 # Preparing data
+# the data is prepped here by each variable assigned a color to be visable once stacked together on the chart
 trace1 = go.Bar(x=new_df['Country'], y=new_df['Unrecovered'], name='Unrecovered',
 marker={'color': '#CD7F32'})
 trace2 = go.Bar(x=new_df['Country'], y=new_df['Recovered'], name='Recovered',
