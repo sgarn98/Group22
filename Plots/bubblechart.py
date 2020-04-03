@@ -18,6 +18,7 @@ new_df = df.groupby(['Country']).agg(
 ).reset_index()
 
 # Preparing data
+# The data is preppared here by making the country the x axis and the values of cases the y axis
 data = [
     go.Scatter(x=new_df['Recovered'],
                y=new_df['Unrecovered'],
