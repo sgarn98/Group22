@@ -1,0 +1,12 @@
+first_name,last_name,favorite_sandwich,favorite_ingredients,user_age,user_gender,preferred_genders,latitude,longitude
+John,Smith,reuben,lettuce,40,0,1,35.227085,-80.843124
+Janet,Jackson,"philly cheesesteak",mayo,21,1,2,35.227085,-80.843124
+Carl,Wheazer,club,mayo::lettuce::tomato,20,0,2,35.227205,-80.844124
+Caleb,Cable,club,mayo::lettuce::onions,25,0,0,35.22708,-80.82
+Jenny,Jay,club,tomatoes,29,1,0,35.229,-80.814
+Abby,Que,BLT,lettuce,19,1,0,35.21701,-80.82004
+Harry,Styles,"veggie wrap",mustard::lettuce::tomato,25,0,2,35.31701,-80.82404
+Katie,Sand,"veggie wrap",green peppers::onions,24,1,0,35.21701,-80.82004
+James,Bond,club,mayo,30,0,0,35.22708,-80.82
+Cam,Newton,"philly cheesesteak",mustard::relish,33,0,1,35.227085,-80.843124
+Jane,Doe,reuben,mustard::ketchup::onions,21,1,2,35.227085,-80.843124
