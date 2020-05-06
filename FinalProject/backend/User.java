@@ -1,6 +1,5 @@
 package main;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class User {
@@ -12,9 +11,10 @@ public class User {
     private double latitude, longitude;
     private int distRadius;
     private String favSandwich;
+    private String[] sandwichIngredients;
     private String lookingFor;
 
-    public User(String name, int age, int[] ageRange, String gender, String location, int distRadius, String favSandwich, String lookingFor) {
+    public User(String name, int age, int[] ageRange, String gender, String location, int distRadius, String favSandwich, String[] sandwichIngredients, String lookingFor) {
         this.name = name;
         this.age = age;
         this.ageRange = ageRange;
@@ -22,6 +22,7 @@ public class User {
         this.location = location;
         this.distRadius = distRadius;
         this.favSandwich = favSandwich;
+        this.sandwichIngredients = sandwichIngredients;
         this.lookingFor = lookingFor;
 
         setCoordinates();
@@ -70,6 +71,10 @@ public class User {
 
     public String getFavSandwich() {
         return favSandwich;
+    }
+
+    public String[] getSandwichIngredients() {
+        return sandwichIngredients;
     }
 
     public String getLookingFor() {
