@@ -11,7 +11,7 @@ public abstract class Matcher {
         BufferedReader fileReader = null;
 
         try {
-            fileReader = new BufferedReader(new FileReader("Db_data.csv"));
+            fileReader = new BufferedReader(new FileReader(file));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
